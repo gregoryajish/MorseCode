@@ -1,0 +1,24 @@
+morse-hand-gesture/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── CameraFeed.jsx        # ← building this now (Step 1)
+│   │   ├── SignalIndicator.jsx   # Step 3
+│   │   ├── MorseBuffer.jsx       # Step 5
+│   │   ├── DecodedText.jsx       # Step 5
+│   │   └── SettingsPanel.jsx     # Step 6
+│   │
+│   ├── hooks/
+│   │   ├── useHandDetection.js   # Step 2
+│   │   ├── useGestureState.js    # Step 3
+│   │   ├── useMorseTimer.js      # Step 4
+│   │   └── useTextToSpeech.js    # Step 6
+│   │
+│   ├── utils/
+│   │   ├── morseTable.js         # Step 5
+│   │   └── gestureClassifier.js  # Step 3
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── vite.config.js
